@@ -1,0 +1,19 @@
+{
+  "servers": [
+    {
+      "type": "stdio",
+      "id": "backend",
+      "command": ["/Users/aswanthb/netaverse_mvp/backend/venv/bin/python", "/Users/aswanthb/netaverse_mvp/backend/main.py"],
+      "cwd": "/Users/aswanthb/netaverse_mvp/backend",
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    },
+    {
+      "type": "stdio",
+      "id": "frontend",
+      "command": ["/Users/aswanthb/netaverse_mvp/frontend/node_modules/.bin/vite"],
+      "cwd": "/Users/aswanthb/netaverse_mvp/frontend"
+    }
+  ]
+}
